@@ -23,7 +23,7 @@ jobs:
       - name: Run eslint
         run: yarn lint
       - name: Run Jest
-        run: yarn jest
+        run: yarn test
       - name: Show coverage in comments
         uses: mattallty/jest-github-action@v1
         env:
