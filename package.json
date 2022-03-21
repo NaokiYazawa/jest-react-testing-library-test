@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test": "jest --updateSnapshot",
+    "test:coverage": "jest --coverage --updateSnapshot"
   },
   "dependencies": {
     "next": "12.1.0",
