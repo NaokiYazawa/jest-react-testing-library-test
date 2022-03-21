@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest -- --coverage --silent --testLocationInResults --ci --json --outputFile=\"report.json\""
   },
   "dependencies": {
     "next": "12.1.0",
