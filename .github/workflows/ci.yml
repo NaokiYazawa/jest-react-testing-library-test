@@ -25,7 +25,7 @@ jobs:
       - name: Run Jest
         run: yarn jest
       - name: Show coverage in comments
-        uses: ArtiomTr/jest-coverage-report-action@v2.0-rc.6
+        uses: ArtiomTr/jest-coverage-report-action@v2.0.5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          test-script: yarn test:coverage
+          test-script: npm run test:coverage
