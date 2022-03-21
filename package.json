@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
-    "test:coverage": "npm run test -- --coverage --silent --testLocationInResults --ci --json --outputFile=\"report.json\""
+    "test": "jest"
   },
   "dependencies": {
     "next": "12.1.0",
